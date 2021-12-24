@@ -3,7 +3,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { Modal } from "antd";
 import Link from "next/link";
-import ForgotPasswordForm from "../components/ForgotPasswordForm";
+import ForgotPasswordForm from "../components/forms/ForgotPasswordForm";
 import { UserContext } from "../context";
 import { useRouter } from "next/router";
 
